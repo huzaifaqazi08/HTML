@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h2>Survey Form</h2>
+    <hr>
+    <form action="review.html" method="get">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="b">Name</label>
+            <input type="text" id="b" name="name" required> <br>
+            <label for="a">Email</label>
+            <input type="email" name="email" id="a" required>
+        </fieldset>
+        <fieldset>
+            <legend>Prefrences</legend>
+            <p>Choose your favorite Language</p>
+            <label for="">HTML</label>
+            <input type="radio" name="name" ><br>
+            <label for="">CSS</label>
+            <input type="radio"><br>
+            <label for="">Javascript</label>
+            <input type="radio"><br>
+            <p>Select your interest:</p><br>
+            <label for="">Fronted</label>
+            <input type="checkbox"><br>
+            <label for="">Backend</label>
+            <input type="checkbox"><br>
+            <label for="">Design</label>
+            <input type="checkbox"><br>
+            <p>Experience level:<select name="" id="">
+                    <option value="select">select</option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Expert">Expert</option>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback</legend>
+            <p>Your Comments</p>
+            <textarea name="" id="" cols="50" rows="4"></textarea>
+        </fieldset>
+        <details>
+            <summary>
+                see form progress
+            </summary>
+            <p> Estimate completion <progress value="70" max="100"> Estimate completion</progress>
+        </details><br>
+        <input type="submit" value="Review your answer">
+
+    </form>
+
+</body>
+
+</html>
